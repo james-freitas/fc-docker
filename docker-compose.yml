@@ -9,7 +9,7 @@ services:
 
   nginx:
     image: jamesfrj/nginx-laravel:prod
-    container_name: ngix
+    container_name: nginx
     networks:
       - laranet
     ports:
