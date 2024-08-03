@@ -7,14 +7,14 @@
 1. Inside **nginx** folder create an image 
 `docker build -t <your_prefix>/nginx-laravel:prod . -f Dockerfile.prod`
 
-  You can also make a push to docker hub
-  `docker push <your_prefix>/nginx-laravel:prod`
+2. You can also make a push to docker hub
+`docker push <your_prefix>/nginx-laravel:prod`
 
-2. Inside **laravel** folder create an image 
+3. Inside **laravel** folder create an image 
 `docker build -t <your_prefix>/laravel:prod . -f Dockerfile.prod`
 
-  You can also make a push to docker hub
-  `docker push <your_prefix>/laravel:prod`
+4. You can also make a push to docker hub
+`docker push <your_prefix>/laravel:prod`
 
 
 ### Run Nginx as a reverse proxy for laravel framework
