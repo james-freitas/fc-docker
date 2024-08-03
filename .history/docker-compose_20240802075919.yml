@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  laravel:
+    image: wesleywillians/laravel:prod
+    container_name: laravel
+    networks:
+      - laranet
+
+  nginx:
+    image: wesleywillians/nginx:prod
+    networks

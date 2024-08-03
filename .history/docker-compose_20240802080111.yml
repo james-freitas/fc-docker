@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  laravel:
+    image: jamesfrj/laravel:prod
+    container_name: laravel
+    networks:
+      - laranet
+
+  nginx:
+    image: jamesfrj/nginx-larav:prod
+    networks:
+      - laranet
+    ports:
+      - "8080:80"
+
+networks:
+  laranet:
+    driver: bridge
