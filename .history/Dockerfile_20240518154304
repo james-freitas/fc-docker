@@ -1,4 +1,0 @@
-FROM ubuntu:latest
-
-ENTRYPOINT [ "executable" ]
-CMD [ "echo", "Hello World from Dockerfile!" ]

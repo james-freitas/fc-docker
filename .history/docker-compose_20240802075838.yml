@@ -1,7 +1,0 @@
-version: '3'
-
-services:
-  laravel:
-    image: wesleywillians/laravel:prod
-    container_name: laravel
-    networks: 
